@@ -27,7 +27,7 @@ function Flights() {
 
     const handleFlight = () => {
         setLoading(true)
-        axios.get("http://localhost:1000/results")
+        axios.get("https://somaliairlinebackend.onrender.com/results")
             .then((response) => {
                 setFlights(response.data);
                 setLoading(false)

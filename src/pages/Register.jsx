@@ -36,7 +36,7 @@ function Register(){
         
         setLoading(true)
         
-        axios.post("http://localhost:1000/user/create",{
+        axios.post("https://somaliairlinebackend.onrender.com/user/create",{
             "name": name,
             "email": email,
             "password": password,

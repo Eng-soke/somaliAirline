@@ -16,7 +16,7 @@ function AdminLogin(){
         event.preventDefault()
         setLoading(true)
         
-        axios.post("http://localhost:1000/admin/login",{
+        axios.post("https://somaliairlinebackend.onrender.com/admin/login",{
             "username": username,
             "password": password
         }).then((response)=>{

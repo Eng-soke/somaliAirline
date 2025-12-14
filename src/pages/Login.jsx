@@ -15,7 +15,7 @@ function Login(){
     const handleClick = (e)=>{
         e.preventDefault()
         setLoading(true)
-        axios.post("http://localhost:1000/user/login",{
+        axios.post("https://somaliairlinebackend.onrender.com/user/login",{
             "email": email,
             "password": password
         }).then((response)=>{

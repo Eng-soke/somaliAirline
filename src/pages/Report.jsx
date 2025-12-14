@@ -19,7 +19,7 @@ function Report() {
 
     const getAllReports = () => {
         setLoading(true)
-        axios.get("http://localhost:1000/report/get").then((response) => {
+        axios.get("https://somaliairlinebackend.onrender.com/report/get").then((response) => {
             setGetReport(response.data)
             setLoading(false)
         }).catch((error) => {

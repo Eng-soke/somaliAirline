@@ -10,7 +10,7 @@ function AdminRegist(){
     const navigate = useNavigate()
     const getRegister = (e)=>{
         e.preventDefault()
-        axios.post("http://localhost:1000/admin/create",{
+        axios.post("https://somaliairlinebackend.onrender.com/admin/create",{
             "username": username,
             "password": password,
         }).then(()=>{

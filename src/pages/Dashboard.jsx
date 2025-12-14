@@ -21,10 +21,10 @@ function Dashboard() {
   const fetchTotalData = async () => {
     setLoading(true)
     try {
-      const passengerResponse = await axios.get("http://localhost:1000/passanger/total");
+      const passengerResponse = await axios.get("https://somaliairlinebackend.onrender.com/passanger/total");
       const passengers = passengerResponse.data.passanger;
 
-      const priceResponse = await axios.get("http://localhost:1000/bookings/totalPrice");
+      const priceResponse = await axios.get("https://somaliairlinebackend.onrender.com/bookings/totalPrice");
       const totalPrice = priceResponse.data.totalPrice;
 
       setTotalData({ total: totalPrice, passengers });

@@ -226,7 +226,7 @@ const Bookin = () => {
       "email": email
     };
 
-    axios.post("http://localhost:1000/create", bookingData)
+    axios.post("https://somaliairlinebackend.onrender.com/create", bookingData)
       .then((response) => {
         setgetData(response.data);
         setLoadin(false);
