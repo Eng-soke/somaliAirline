@@ -1,9 +1,10 @@
-import kismayo from "../Images/kismayo.jpg";
+import kismayo from "../Images/Kismayo.jpg";
 import borama from "../Images/Boorama.jpg";
 import cabudwaq from "../Images/cabudwaq.jpg";
 import hargeisa from "../Images/Hargeisa.jpg";
 import kgs from "../Images/kgs.jpg";
 import mog from "../Images/mogadishu.jpg";
+
 import { Link } from "react-router-dom"
 import 'aos/dist/aos.css';
 import AOS from 'aos';
