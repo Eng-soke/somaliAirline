@@ -13,7 +13,7 @@ import borama from "../Images/Boorama.jpg";
 import cabudwaq from "../Images/cabudwaq.jpg";
 import hargeisa from "../Images/Hargeisa.jpg";
 import kgs from "../Images/kgs.jpg";
-import mog from "../Images/mogadishu.jpg";
+import mog from "../Images/Mogadishu.jpg";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 function Wadamo() { 
