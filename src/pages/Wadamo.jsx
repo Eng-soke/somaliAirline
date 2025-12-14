@@ -8,7 +8,7 @@ import norway from "../Images/norway.jpg";
 import sweden from "../Images/sweden.jpg";
 import toronto from "../Images/toronto.jpg";
 import turkey from "../Images/turkey.jpg";
-import kismayo from "../Images/kismayo.jpg";
+import kismayo from "../Images/Kismayo.jpg";
 import borama from "../Images/Boorama.jpg";
 import cabudwaq from "../Images/cabudwaq.jpg";
 import hargeisa from "../Images/Hargeisa.jpg";
